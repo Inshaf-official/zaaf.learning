@@ -1,0 +1,53 @@
+TYPE_CONFIG = {
+    "SCHOOL": {
+        "label": "School",
+        "roles": {
+            "ADMIN": "Principal",
+            "TEACHER": "Teacher",
+            "PARENT": "Parent",
+            "STUDENT": "Student",
+        },
+        "groups": {"primary": "Class", "secondary": "Division"},
+        "attendance_mode": "DAILY",
+        "modules": [
+            "students",
+            "attendance",
+            "exams",
+            "reports",
+            "events",
+            "notices",
+            "medical",
+            "timeline",
+            "fee_notes",
+        ],
+    },
+    "TUITION": {
+        "label": "Tuition centre",
+        "roles": {"ADMIN": "Head", "TEACHER": "Teacher", "PARENT": "Parent"},
+        "groups": {"primary": "Batch", "secondary": "Subject"},
+        "attendance_mode": "SESSION",
+        "modules": [
+            "students",
+            "attendance",
+            "tests",
+            "fees",
+            "notices",
+            "performance",
+        ],
+    },
+    "MADRASA": {
+        "label": "Madrasa",
+        "roles": {"ADMIN": "Admin", "TEACHER": "Ustad", "PARENT": "Parent"},
+        "groups": {"primary": "Class", "secondary": "Level"},
+        "attendance_mode": "DAILY_OR_SESSION",
+        "modules": [
+            "students",
+            "attendance",
+            "hifz",
+            "exams",
+            "notices",
+            "events",
+            "timetable",
+        ],
+    },
+}

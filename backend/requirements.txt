@@ -1,0 +1,17 @@
+Django==5.2.18
+djangorestframework==3.16.1
+djangorestframework-simplejwt==5.5.1
+django-filter==25.2
+drf-spectacular==0.29.0
+django-cors-headers==4.9.0
+dj-database-url==3.1.2
+psycopg[binary]==3.2.13
+gunicorn==23.0.0
+argon2-cffi==25.1.0
+pytest==8.4.2
+pytest-django==4.11.1
+WeasyPrint==70.0
+celery==5.6.3
+redis==8.1.0
+drf-spectacular-sidecar==2026.10.1
+whitenoise==6.12.0
